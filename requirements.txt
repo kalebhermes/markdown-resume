@@ -1,0 +1,2 @@
+Markdown==2.6.9
+Markdown2PDF==0.1.4
