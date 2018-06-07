@@ -5,8 +5,8 @@ build:
 	python -m markdown markdown_resume.md > ./html/markdown_resume.html
 	python build_html.py ./html/pre_html.html ./html/markdown_resume.html ./html/post_html.html
 	md2pdf markdown_resume.md --theme="./css/pdf.css" --output resume_kaleb_hermes.pdf
-	#Copy the pervious version of index.html and resume.pdf to a previous folder, in case something goes wrong.
-	#Upload newly built resume to webserver.
+	# Copy the pervious version of index.html and resume.pdf to a previous folder, in case something goes wrong.
+	# Upload newly built resume to webserver.
 	ssh kaleb@kalebhermes.com "cp /var/www/html/index.html /var/www/html/previous/index.html"
 	ssh kaleb@kalebhermes.com "cp /var/www/html/resume_kaleb_hermes.pdf /var/www/html/previous/resume_kaleb_hermes.pdf"
 	scp resume.html kaleb@kalebhermes.com:/var/www/html/index.html
@@ -19,6 +19,11 @@ clean:
 	rm -rf resume.html
 	rm -rf resume_kaleb_hermes.pdf
 	rm -rf ./html/markdown_resume.html
+
+
+resumePDF:
+
+	md2pdf custom_resume/markdown_resume.md --theme="./css/pdf.css" --output custom_resume/resume_kaleb_hermes.pdf
 
 
 setup:
