@@ -7,7 +7,7 @@ My name is Kaleb. I'm an automation engineer with a strong background in Program
 
 ## Experience
 ### [Sizmek Inc - Software Engineer in Test](https://www.sizmek.com)
-Sizmek uses predictive marketing to help brands provide relevant experience to customers. Responsibilities Include : ensuring newly developed applications met specifications and were optimized for performance. Application development using object-oriented designs, HTML, Javascript, React, MYSQL. Team management, developing agile process and hiring.
+Sizmek uses predictive marketing to help brands provide relevant experience to customers. Responsibilities Include : ensuring newly developed applications met specifications and were optimized for performance. Develop test suite and implement Cucumber based automation. Application development using object-oriented designs, HTML, Javascript, React, MYSQL. Team management, developing agile process and hiring.
 
 ### [Health Enhancement Systems - Front End Developer](https://www.healthenhancementsystems.com)
 Health Enhancement Systems builds and maintains Employee Wellness Challenges for companies nationwide. Responsibilities Include : building feature rich web applications using HTML, Javascript, AngularJS, jQuery, CSS and Sass, developing to very specific guidelines, implementation of cloud based server solutions for each program, quick turn around to meet client expectation.
@@ -27,6 +27,6 @@ If you use a Mac and you don't use [Alfred](https://www.alfredapp.com/), you sho
 Have you ever wanted to play [Fantasy Flight's Star Wars Tabletop RPG](https://www.fantasyflightgames.com/en/starwarsrpg/) using Alexa to roll those funny dice? Now you can! Simply ask Alexa to roll a pool of dice and she'll do the math for you. 
 
 ## Proficiencies
+* Cucumber / Nightwatch Automation Frameworks
 * Selenium, BDD, TDD, UI Automation
-* Javascript/Node - ES6, Angular, React
-* Python - Django
+* Javascript/Node - ES6, Angular, React, Python - Django

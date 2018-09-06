@@ -6,6 +6,10 @@ kalebhermes.com](http://www.kalebhermes.com) hosts my resume. Keeping a pdf copy
 
 If you'd like to build your own version, you simply need to clone this repo and run the following commands.
 
+`curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py`
+
+`python get-pip.py`
+
 `make setup`
 
 `make`

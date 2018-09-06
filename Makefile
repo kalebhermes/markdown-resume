@@ -13,12 +13,12 @@ build:
 	scp resume_kaleb_hermes.pdf kaleb@kalebhermes.com:/var/www/html/resume_kaleb_hermes.pdf
 
 clean:
-	cp resume.html ./html/revisions/resume.backup.html
-	cp resume_kaleb_hermes.pdf ./html/revisions/resume_kaleb_hermes.pdf
-	cp ./html/markdown_resume.html ./html/revisions/markdown_resume.backup.html
-	rm -rf resume.html
-	rm -rf resume_kaleb_hermes.pdf
-	rm -rf ./html/markdown_resume.html
+	-cp resume.html ./html/revisions/resume.backup.html
+	-cp resume_kaleb_hermes.pdf ./html/revisions/resume_kaleb_hermes.pdf
+	-cp ./html/markdown_resume.html ./html/revisions/markdown_resume.backup.html
+	-rm -rf resume.html
+	-rm -rf resume_kaleb_hermes.pdf
+	-rm -rf ./html/markdown_resume.html
 
 
 resumePDF:
@@ -27,6 +27,6 @@ resumePDF:
 
 
 setup:
-	pip install -r requirements.txt
+	pip install -r requirements.txt --ignore-installed six
 
 lint:
