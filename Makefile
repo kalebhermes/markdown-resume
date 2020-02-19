@@ -20,6 +20,12 @@ clean:
 	-rm -rf resume_kaleb_hermes.pdf
 	-rm -rf ./html/markdown_resume.html
 
+buildLocal:
+
+	python -m markdown markdown_resume.md > ./html/markdown_resume.html
+	python build_html.py ./html/pre_html.html ./html/markdown_resume.html ./html/post_html.html
+	md2pdf markdown_resume.md --theme="./css/pdf.css" --output resume_kaleb_hermes.pdf
+
 
 resumePDF:
 
@@ -27,6 +33,6 @@ resumePDF:
 
 
 setup:
-	pip install -r requirements.txt --ignore-installed six
+	pip3 install -r requirements.txt --ignore-installed six
 
 lint:

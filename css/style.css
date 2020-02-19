@@ -55,10 +55,18 @@ ul:first-of-type{
     display: none;
 }
 
+ul p{
+    display: inline;
+}
+
 code {
   background: #222222;
   border: 1px solid #222222;
   color: #648DAF;
+}
+
+em {
+    font-style: normal;
 }
 
 .signature {
@@ -70,10 +78,21 @@ code {
     top: -8rem;
 }
 
+a:hover {
+    position: relative;
+}
+
+h1:hover:after {
+    display: inline-block;
+    margin-left: 5px;
+    content: "";
+    background: url("../images/file.png") no-repeat 0 0;
+    background-size: 100%;
+}
 
 @media (min-width: 460px) {
     h1{
-        font-size: 6rem;
+        font-size: 5rem;
     }
     h2{
         font-size: 3.5rem;
@@ -86,11 +105,15 @@ code {
         height: 300px;
         top: -10rem;
     }
+    h1:hover:after{
+        width: 19.2px;
+        height: 25.6px;
+    }
 }
 
 @media (min-width: 650px) {
     h1{
-      font-size: 8rem;
+      font-size: 7rem;
     }
     h2{
         font-size: 4rem;
@@ -103,11 +126,15 @@ code {
         height: 400px;
         top: -12.5rem;
     }
+    h1:hover:after{
+        width: 27.5px;
+        height: 38px;
+    }
 }
 
 @media (min-width: 810px) {
     h1{
-        font-size: 10rem;
+        font-size: 9rem;
     }
     h2{
         font-size: 5rem;
@@ -119,5 +146,9 @@ code {
         width: 500px;
         height: 500px;
         top: -15rem;
+    }
+    h1:hover:after{
+        width: 38.4px;
+        height: 51.2px;
     }
 }

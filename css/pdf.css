@@ -13,16 +13,16 @@ h1{
     position: relative;
     margin: auto 0;
     display: inline-block;
-    font-size: 45px;
+    font-size: 37px;
 }
 
 h2{
-    font-size: 25px;
+    font-size: 20px;
 }
 
 h3{
     position: relative;
-    left: 20%;
+    left: 10%;
     font-size: 15px;
 }
 
@@ -39,13 +39,13 @@ a:link{
     text-decoration: none;
 }
 
-p:first-of-type{
+em:first-of-type{
     display: none;
 }
 
 h3 + p{
     position: relative;
-    left: 20%;
+    left: 10%;
     width: 100%;
 }
 
@@ -58,6 +58,17 @@ ul:first-of-type{
     list-style-type: none;
 }
 
+/* The left in h2 + ul li and ul are tied together. Any change made to one needs to be made to the other. */ 
+h2 + ul li{
+    position: relative;
+    left: -6.75%!important;
+}
+
+ul{
+    position: relative;
+    left: 11%;
+}
+
 ul:first-of-type li:nth-child(2){
-    margin-top: 8px;
+    margin-top: 1px;
 }
