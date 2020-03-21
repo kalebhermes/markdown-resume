@@ -6,7 +6,7 @@
 *My name is Kaleb. I'm an automation engineer with a strong background in front end development. I've developed software and test automation frameworks in the health motivation & improvement, programmatic marketing, and automotive lifestyle industries. Most recently I've been working with Flutter on native mobile application development and 'on device' automation. I like making software that's fast, stable, and responsive. I also like Star Wars.*
 
 ## Experience
-### [Hagerty - Software Development Engineer in Test](https://www.hagerty.com)
+### [Hagerty - Senior Software Development Engineer in Test](https://www.hagerty.com)
 Hagerty is a leading automotive lifestyle brand with a focus in collector and classic car insurance.
 
 * Develop and maintain Flutter applications, including comprehensive test automation using flutter_driver.
