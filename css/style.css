@@ -1,154 +1,44 @@
-body{
-	background-color: #373c41;
-    color: #C7C7C7;
-    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
-    font-variant: normal;
-    font-size: 1.7rem;
-}
-h1, h2, h3, h4, h5, h6{
-    letter-spacing: .5px;
-}
-
-h1{
-	font-size: 5rem;
-	color: #FEFEFE;
-    font-weight: 700;
-    margin-top: 2.5rem;
-}
-h1 a{
-    color: #648DAF;
-}
-h2{
-	font-size: 3.5rem;
-	color: #FFFFFF;
-    font-weight: 700;
-}
-h3{
-    font-size: 2.25rem;
-    font-weight: 600;
-}
-h2 a, h3 a, h4 a, h5 a{
-	color: #FAFAFA;
-}
-a{
-	color:#C7C7C7;
-	text-decoration: none;
-}
-a:hover{
-	cursor: pointer;
-	color: #648DAF;
-}
-p a{
-	color: #648DAF;
-}
-p a:hover{
-    opacity: .7;
-}
-
-footer{
-    display: block;
-    position: relative;
-    height: 100px;
-}
-
-ul:first-of-type{
-    display: none;
-}
-
-ul p{
-    display: inline;
-}
-
-code {
-  background: #222222;
-  border: 1px solid #222222;
-  color: #648DAF;
-}
-
-em {
-    font-style: normal;
-}
-
-.signature {
-    display: block;
-    margin: auto;
-    width: 250px;
-    height: 250px;
-    position: relative;
-    top: -8rem;
-}
-
-a:hover {
-    position: relative;
-}
-
 h1:hover:after {
     display: inline-block;
     margin-left: 5px;
-    content: "";
-    background: url("../images/file.png") no-repeat 0 0;
+    content: "📄";
     background-size: 100%;
 }
 
-@media (min-width: 460px) {
-    h1{
-        font-size: 5rem;
-    }
-    h2{
-        font-size: 3.5rem;
-    }
-    h3{
-        font-size: 2.25rem;
-    }
-    .signature {
-        width: 300px;
-        height: 300px;
-        top: -10rem;
-    }
-    h1:hover:after{
-        width: 19.2px;
-        height: 25.6px;
-    }
+h3:hover:after {
+    display: inline-block;
+    margin-left: 5px;
+    background-size: 100%;
 }
 
-@media (min-width: 650px) {
-    h1{
-      font-size: 7rem;
-    }
-    h2{
-        font-size: 4rem;
-    }
-    h3{
-        font-size: 2.5rem;
-    }
-    .signature {
-        width: 400px;
-        height: 400px;
-        top: -12.5rem;
-    }
-    h1:hover:after{
-        width: 27.5px;
-        height: 38px;
-    }
+h3:first-of-type:hover:after {
+    content: "🏎️";
 }
 
-@media (min-width: 810px) {
-    h1{
-        font-size: 9rem;
-    }
-    h2{
-        font-size: 5rem;
-    }
-    h3{
-        font-size: 3.25rem;
-    }
-    .signature {
-        width: 500px;
-        height: 500px;
-        top: -15rem;
-    }
-    h1:hover:after{
-        width: 38.4px;
-        height: 51.2px;
-    }
+h3:nth-of-type(2):hover:after {
+    content: "🤖";
+}
+
+h3:nth-of-type(3):hover:after {
+    content: "🏃‍♂️";
+}
+
+h3:nth-of-type(4):hover:after {
+    content: "⚔️";
+}
+
+h3:nth-of-type(5):hover:after {
+    content: "🦉";
+}
+
+h3:nth-of-type(6):hover:after {
+    content: "🎲";
+}
+
+h3:nth-of-type(7):hover:after {
+    content: "#️⃣";
+}
+
+h3:nth-of-type(8):hover:after {
+    content: "🎓";
 }
