@@ -9,7 +9,7 @@
 ### [Hagerty - Senior Software Development Engineer in Test](https://www.hagerty.com)
 Hagerty is a leading automotive lifestyle brand with a focus in collector and classic car insurance.
 
-* Develop and maintain Flutter applications, including comprehensive test automation using flutter_driver.
+* Develop and maintain [Hagerty's Flutter app](https://apps.apple.com/us/app/hagerty-insider/id386245989), including comprehensive test automation using flutter_driver.
 
 * Implement a Java based WebDriver & Selenium automation framework, including custom APIs specifically designed for ease of use and re-usability.
 
